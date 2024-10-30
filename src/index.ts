@@ -1,5 +1,9 @@
-import { greet } from "./component";
+import { ConfigService } from "./config/service.config"
 
-const greeting = greet();
+async function Main() {
+  try {
 
-console.log(greeting);
+  } catch (error) {
+    console.log(error)
+  }
+}

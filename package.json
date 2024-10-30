@@ -1,7 +1,7 @@
 {
-  "name": "{{param `github.repo` | lowercase}}",
+  "name": "unicourt",
   "version": "1.0.0",
-  "description": "{{param `description`}}",
+  "description": "UniCourt",
   "main": "dist/index.js",
   "engines": {
     "npm": ">=10.8.1",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{param `github.owner`}}/{{param `github.repo`}}.git"
+    "url": "git+https://github.com/benhichem/UniCourt.git"
   },
-  "author": "{{param `git.name`}}<{{param `git.email`}}>",
+  "author": "benhichem<hichemben45@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/{{param `github.owner`}}/{{param `github.repo`}}/issues"
+    "url": "https://github.com/benhichem/UniCourt/issues"
   },
-  "homepage": "https://github.com/{{param `github.owner`}}/{{param `github.repo`}}#readme",
+  "homepage": "https://github.com/benhichem/UniCourt#readme",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^8.0.1",
@@ -39,5 +39,9 @@
     "ts-jest": "^29.2.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
   }
 }
